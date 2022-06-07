@@ -1,10 +1,10 @@
 /*
-Template Name: Electro - HTML Ecommerce Template
+Template Name: Alphaprinting Company
 Author: yaminncco
 
 Colors:
 	Body 		: #333
-	Headers 	: #2B2D42
+	Headers 	: #000
 	Primary 	: #ecc514
 	Dark 		: #15161D ##1E1F29
 	Grey 		: #E4E7ED #FBFBFC #8D99AE #B9BABC
@@ -60,22 +60,46 @@ body {
   font-weight: 400;
   color: #333;
 }
+.box-text-customer{
+  color:#fff;
+}
 
+.product-img{
+  height: 183px;;
+}
 h1, h2, h3, h4, h5, h6 {
-  color: #2B2D42;
+  color: #000;
   font-weight: 700;
   margin: 0 0 10px;
 }
-
+.box-info input, .box-info textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+p.name-customer {
+  color: #f1c518;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 600;
+}
 a {
-  color: #2B2D42;
+  color: #000;
   font-weight: 500;
   -webkit-transition: 0.2s color;
   transition: 0.2s color;
 }
+.testimonial-avatar img {
+  overflow: hidden;
+  height: 160px;
+  width: 160px!important;
+  border-radius: 50%;
+  margin: 15px auto;
+}
 
 a:hover, a:focus {
-  color: #ecc514;
+  color: #bbb28b;
   text-decoration: none;
   outline: none;
 }
@@ -108,7 +132,13 @@ ul, ol {
   opacity: 0.9;
   color: #FFF;
 }
-
+.navbar-default .navbar-nav>li>a {
+  font-weight: 1000 !important;
+  font-size: 15px;
+}
+.carousel-control{
+  margin-top: 20px;
+}
 /*----------------------------*\
 	Inputs
 \*----------------------------*/
@@ -222,6 +252,25 @@ textarea.input {
 
 .input-radio input[type="radio"]+label span {
   border-radius: 50%;
+}
+
+.clouds-wrapper {
+    position: fixed;
+    bottom: 101px;
+    right: 4px;
+    z-index: 10000;
+    width: 70px;
+    height: 70px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
 }
 
 .input-radio input[type="radio"]+label span:after {
@@ -584,7 +633,7 @@ textarea.input {
 }
 
 .cart-dropdown .cart-list .product-widget .product-body .product-price {
-  color: #2B2D42;
+  color: #000;
 }
 
 .cart-dropdown .cart-btns {
@@ -2086,7 +2135,7 @@ textarea.input {
 
 .slick-prev:before, .slick-next:before {
   font-family: FontAwesome;
-  color: #2B2D42;
+  color: #000;
 }
 
 .slick-prev:before {
