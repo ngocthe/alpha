@@ -63,7 +63,19 @@ body {
 .box-text-customer{
   color:#fff;
 }
-
+.dropdown-menu>li:hover {
+  background-color: #fff;
+}
+.navbar-default .navbar-nav>li>a{
+  color: white !important;
+}
+.navbar-default .navbar-nav>li>a:hover{
+  color: rgb(233, 159, 1) !important;
+  background-color: white;
+}
+.dropdown-toggle{
+  color:#fff;
+}
 .product-img{
   height: 183px;;
 }
